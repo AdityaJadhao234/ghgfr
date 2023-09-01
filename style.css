@@ -1,0 +1,170 @@
+*{
+    margin: 0px 0px 0px 2px;
+}
+h1{
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+p{
+    display: inline;
+    color: #ff9101;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:blue;
+    
+}
+.Bname{
+    margin-left: 25px;
+}
+button{
+    color: blue;
+    
+}
+#login{
+    color: blue;
+    font-size: 15px;
+}
+#explore:hover{
+    text-decoration:solid underline;
+}
+.shopping{
+    display: flex;
+    justify-content: space-around;
+    margin-right:100px;
+    margin-top: 20px;
+}
+.logo{
+    background-size:cover;
+    height: 15px;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-type{
+    text-align: center;
+    border-left: 5px solid #3498db;
+    border-right: 5px solid  #3498db;
+    height: 350px;
+    width: 200px;
+    padding: 0px 20px 0px 20px;
+}
+.img-electronics{
+    height: 200px;
+    width: 200px;
+}
+.headline{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-style: italic;
+    background-color: blue;
+    color: antiquewhite;
+    box-sizing: border-box;
+    border: 5px solid burlywood;
+}
+h1:hover{
+    color:lightblue;
+}
+h4{
+    color: black;
+    padding-bottom: 10px;
+}
+h5{
+    color:green;
+    padding-bottom: 10px;
+}
+.p{
+    color: rgb(63, 63, 63);
+    padding-bottom: 10px;
+}
+.img-more{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.more-img{
+    text-align: center;
+    border-left: 5px solid #3498db;
+    border-right: 5px solid  #3498db;
+    height: 280px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding: 0px 20px 0px 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    padding: 40px 60px 0px 60px;
+}
+.footer-a{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 12pz;
+    color: #878787;
+    margin-bottom: 10px;
+}
+.social{
+    padding-right: 32px;
+    border-right: 2px solid #878787;
+    height: 190px;
+}
+#footer{
+    color: aliceblue;
+    font-size: 12px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 30px;
+    font-size: 12px;
+    border-top: 2px solid #878787;
+}
+.low-footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    font-size: 12px;
+}
+#low{
+    margin-right: 30px;
+    text-align: left;
+}
+i span{
+    color:aliceblue;
+}
+#low:nth-child(1){
+    margin-left: 20px;
+}
+.img-pay{
+    background-size: cover;
+    height: 25px;
+    width: 50px;
+    margin-right: 30px;
+}
+@media (max-width:400px){
+    .header{
+        width: 400px;
+    }
+}
+.shop-grocery{
+    background-image: url(/red.jpg);
+    width: 200px;
+    background-size: cover;
+}
